@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    background-color: #f3eaf4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #32113f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 120px;
+    margin-right: 20px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.titulo h1 {
+    font-family: "Times New Roman", serif;
+    font-size: 55px;
+    margin: 10px;
+    color: #d6a4e8;
+}
+
+.titulo h2 {
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+nav {
+    width: 180px;
+    background-color: #c9afd3;
+    min-height: 100vh;
+    float: left;
+    padding-top: 20px;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #32113f;
+    padding: 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #b18abb;
+}
+
+.activo {
+    font-weight: bold;
+    background-color: #b18abb;
+}
+
+main {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+h2 {
+    color: #4b245a;
+}
+
+h3 {
+    color: #4b245a;
+}
+
+.info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.info p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.portada {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.trabajo {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.trabajo img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.trabajo p {
+    margin-top: 10px;
+}
+
+.galeria2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.precio {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.precio img {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+}
+
+button {
+    background-color: #754582;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4b245a;
+}
+
+footer {
+    clear: both;
+    background-color: #32113f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+footer img {
+    width: 40px;
+    margin: 10px;
+}
+
+footer p {
+    color: white;
+    margin-left: 20px;
+}
